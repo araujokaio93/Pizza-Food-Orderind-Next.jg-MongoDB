@@ -8,7 +8,7 @@ export default function MenuItem() {
         <h4 className="font-semibold text-xl my-3">
           Pizza de Pepperoni
         </h4>
-        <p className="text-gray-500 text-justify text-sm line-clamp-2">
+        <p style={{ textIndent: '1.5em' }}  className="text-gray-900 text-justify text-sm text-justify line-clamp-2">
           Descubra a combinação perfeita de sabores com nossa irresistível Pizza de Pepperoni! A base começa com uma massa artesanal, assada até atingir a textura ideal: crocante por fora e macia por dentro. Sobre a massa, espalhamos um molho de tomate rico e saboroso, preparado com tomates italianos frescos e temperos especiais.
           Cada fatia é generosamente coberta com uma camada de queijo mussarela derretido, que se estica em fios suculentos a cada mordida. E, claro, a estrela do show: fatias finas de pepperoni, levemente picantes e incrivelmente saborosas, distribuídas uniformemente para garantir um toque de sabor em cada pedaço.
           O pepperoni, com seu sabor distintamente apimentado e defumado, contrasta perfeitamente com o queijo cremoso e o molho de tomate ligeiramente adocicado, criando uma explosão de sabores que vai satisfazer todos os amantes de pizza. Assada até a perfeição, nossa Pizza de Pepperoni apresenta bordas douradas e crocantes, com o queijo borbulhante e o pepperoni levemente tostado no topo.

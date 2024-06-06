@@ -13,7 +13,7 @@ export default function HomeMenu() {
           <Image src={'/sallad2.png'} width={107} height={195} alt={'sallad'} />
         </div>
       </div>
-      <div className="text-center mb-4">
+      <div className="text-center mb-6">
         <SectionHeaders subHeader={'Confira nosso'} mainHeader={'Cardápio'} />
       </div>
       <div className="grid grid-cols-3 gap-4">
