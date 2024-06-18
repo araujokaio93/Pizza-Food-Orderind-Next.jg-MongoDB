@@ -14,8 +14,24 @@ section.hero{
     to {
       opacity: 1;
     }
-  }
+}
   
-  .animate-fade-in {
+.animate-fade-in {
     animation: fade-in 1s ease forwards;
-  }
+}
+
+input[type="email"], 
+input[type="password"],
+input[type="text"] {
+    @apply block w-full my-2 rounded-lg; /* Use a valid class */
+    @apply block border p-2 border-gray-300 bg-gray-100;
+}
+
+button{
+    @apply block w-full text-gray-700 font-semibold;
+    @apply border border-gray-300 rounded-xl px-6 py-2;
+}
+  
+button[type="submit"], .submit{
+    @apply border-0 bg-primary text-white;
+}

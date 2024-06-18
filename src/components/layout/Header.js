@@ -15,7 +15,7 @@ export default function Header() {
           <Link href={'/login'} className="mr-4 hover:underline"> {/* Adicionei margem à direita */}
             Login
           </Link>
-          <Link href={'/register'} className="bg-primary rounded-full text-white px-3 py-2 hover:bg-opacity-80 transition duration-300 hover:underline">
+          <Link href={'/register'} className="bg-primary rounded-full text-white text-justify text-sm text-justify px-3 py-2 hover:bg-opacity-80 transition duration-300 hover:underline">
             Registro
           </Link>
         </nav>

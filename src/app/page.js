@@ -8,10 +8,10 @@ export default function Home() {
     <>
       <Hero />
       <HomeMenu />
-      <section className="text-center my-16" id="about">
+      <section className="text-center my-12" id="about">
         <SectionHeaders
-          subHeader={'Nossa História'}
-          mainHeader={'Sobre nós'}
+          subHeader={'A Nossa História :'}
+          mainHeader={'Como tudo começou ...'}
         />
        <div className="text-gray-900 max-w-md mx-auto mt-4 flex flex-col gap-4 text-justify">
           <p style={{ textIndent: '1.5em' }}>
@@ -28,9 +28,9 @@ export default function Home() {
       <section className="text-center mb-8" id="contact">
         <SectionHeaders
             subHeader={'A fome bateu ?'}
-            mainHeader={`Faça já seu pedido, pelo telefone `}
+            mainHeader={`Faça já seu pedido, pelo telefone : `}
           />
-        <div className="mt-8 flex items-center justify-center">
+        <div className="mt-4 flex items-center justify-center">
           <FaPhone className="text-4xl mr-4" /> {/* Aplicar classe para definir o tamanho do ícone e espaçamento */}
           <a className="text-4xl  text-black" href="tel:+3799976545">
              +37 9997-6545
